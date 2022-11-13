@@ -1,0 +1,12 @@
+#tous{
+    padding: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px 100px;
+}
+#checkbox{
+    background-color: rgb(202, 60, 141);
+    color: red;
+}
+label{
+    padding: 10px 20px 0px 50px;
+}

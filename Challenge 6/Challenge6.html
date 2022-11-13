@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Nos service</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="Challenge6.css">
+</head>
+
+<body>
+<form methode="post" action="traitment.php">
+    <fieldset id="tous">
+        <legend>VOS DONNEES PERSONELLES</legend>
+        
+            <label for="name"> Name</label>
+            <input type="name" id="name" placeholder="votre nom" ><br><br><br>
+
+            <label for="Name"> Prénom</label>
+            <input type="Prénom" id="Prénom" placeholder="votre prénom"><br><br><br>
+
+            <label for="date"> Date</label>
+            <input type="date" id="date"><br><br><br>
+
+
+            <fieldset id="Pays">
+                <legend>Lieu de naissance </legend>
+                <input type="radio">
+                <label for="Pays">Seine-Saint-Denis</label>
+
+                <input type="radio">
+                <label for="Pays">Reste du monde</label><br><br><br><br>
+            </fieldset><br><br>
+
+            <label for="adresse">Adresse postale</label>
+            <textarea id="adresse" name="adresse" rows=5 required placeholder="votre adresse"></textarea><br><br>
+
+            <label for="codepostal">Code postal</label>
+            <input id="codepostal" name="codepostal" type="text" required placeholder="93000"><br><br>
+
+            <label for="email">Adresse electronique</label>
+            <input id="email" name="email" type="text" required placeholder="votre adresse electronique"><br><br>
+
+            <label for="url">Page Personnelle</label>
+            <input id="url" name="url" type="text" required placeholder="votre page web"><br><br>
+
+            <label for="tel">Telephone portable</label>
+            <input id="tel" name="tel" type="tel" required placeholder="0652364561"><br><br><br>
+
+            <fieldset id="checkbox">
+                <legend>CONNAISANCE</legend>
+                <input type="checkbox" name="HTML" value="HTML" id="HTML">
+                <label for="HTML"> HTML</label>
+
+                <input type="checkbox" name="CSS" value="CSS" id="CSS">
+                <label for="CSS"> CSS</label>
+
+                <input type="checkbox" name="Formulaire" value="Formulaire" id="Formulaire">
+                <label for="Formulaire"> Formulaire</label>
+
+                <input type="checkbox" name="JavaScript" value="JavaScript" id="JavaScript">
+                <label for="JavaScript"> JavaScript</label><br><br>
+            </fieldset><br>
+
+<input type="button" value="envoyer">
+
+    </fieldset>
+    </form>
+
+</body>
+
+</html>
